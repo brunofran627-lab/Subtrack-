@@ -1,0 +1,94 @@
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f19;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111827;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-pro {
+  background: gold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero p {
+  color: #aaa;
+}
+
+/* CARD */
+.card {
+  background: #111827;
+  width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* LIST */
+#list {
+  text-align: center;
+}
+
+#list p {
+  margin: 5px;
+  color: #ddd;
+}
+
+/* TOTAL */
+#total {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
