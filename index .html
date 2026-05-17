@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>SubTrack 💸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">💸 SubTrack</div>
+    <button class="btn-pro"
+      onclick="window.open('https://buy.stripe.com/test_fZu4gy31qg6rcYm0PpgQE02')">
+      Upgrade Pro
+    </button>
+  </div>
+
+  <div class="hero">
+    <h1>Controla as tuas subscrições</h1>
+    <p>Descobre quanto gastas por mês e evita desperdício de dinheiro</p>
+  </div>
+
+  <div class="card">
+    <input id="name" placeholder="Nome (Netflix)" />
+    <input id="price" placeholder="Preço (€)" />
+    <button onclick="addSub()">Adicionar</button>
+  </div>
+
+  <h2>📊 Minhas assinaturas</h2>
+  <div id="list"></div>
+
+  <h2 id="total">Total: €0.00</h2>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
